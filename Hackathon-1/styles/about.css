@@ -2,4 +2,15 @@
   background-image: url(../assets/bye.jpg);
   background-position: center;
   background-size: contain;
+}
+.hero__text {
+  color: orangered;
+}
+
+.main__text {
+  border-bottom: 2px solid gold;
+}
+
+.bio {
+  padding: 2rem;
 }/*# sourceMappingURL=about.css.map */

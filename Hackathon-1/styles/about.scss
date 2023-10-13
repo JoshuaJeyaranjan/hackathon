@@ -2,4 +2,21 @@
     background-image: url(../assets/bye.jpg);
     background-position: center;
     background-size: contain;
+
+    &__text{
+        color: orangered;
+    }
+
+   
 }
+
+.main{
+    &__text{
+        border-bottom: 2px solid gold;
+    }
+}
+
+.bio{
+    padding: 2rem
+}
+
