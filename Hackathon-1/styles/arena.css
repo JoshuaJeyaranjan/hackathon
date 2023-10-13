@@ -1,0 +1,77 @@
+.battle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: blue;
+  height: 50vw;
+  font-size: 2rem;
+  background-image: url(../assets/background-grass.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.battle .vs {
+  margin-top: 20rem;
+  width: 15vw;
+}
+.battle .card {
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 40vw;
+}
+.battle .card__name {
+  color: goldenrod;
+}
+.battle .card__attack__container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  list-style: none;
+  justify-content: space-evenly;
+  max-width: 55%;
+}
+.battle .card__attack__button {
+  padding: 0.5rem 2rem;
+}
+.battle .card__attack__button:hover {
+  background-color: orangered;
+  color: gold;
+  border-radius: 5%;
+  cursor: pointer;
+}
+.battle .card__attack__button:active {
+  background-color: red;
+  color: goldenrod;
+}
+.battle__container {
+  color: aliceblue;
+  width: 96vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.battle__text {
+  margin-top: 0.75rem;
+  color: aliceblue;
+  font-weight: 400;
+}
+
+.select {
+  height: 50vw;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.select__text {
+  margin-top: 2rem;
+}
+.select__button {
+  text-decoration: none;
+  color: inherit;
+}
+.select__button:hover {
+  color: orangered;
+}/*# sourceMappingURL=arena.css.map */

@@ -1,0 +1,97 @@
+.nav{
+    background-color: red;
+    border: .5rem black solid;
+    display: flex;
+    flex-direction: row;
+
+    &__logo{
+        width: 6rem;
+        margin-left: 9vw;
+        margin-right: 9vw;
+    }
+
+    &__list{
+        
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+        justify-content: center;
+        justify-content: space-evenly;
+        padding: 2rem;
+        width: 50vw;
+
+        &__item{
+            font-weight: 400;
+            font-size: 2rem;
+            color: aliceblue;
+            text-decoration: none;
+        }
+    }
+}
+
+
+.hero{
+    height: 50vw;
+    background-color: white;
+    background-image: url(../assets/hero.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    
+    &__text{
+        margin: 2rem;
+    }
+}
+
+.main{
+    background-color: skyblue;
+    display: flex;
+    
+    flex-direction: column;
+    align-items: center;
+
+    &__img{
+        width: 80vw;
+    }
+
+    &__text{
+        margin: 1rem;
+    }
+}
+
+.secondary{
+    background-color: goldenrod;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &__text{
+        margin: 1rem;
+    }
+
+    &__img{
+        width: 10vw;
+        margin-bottom: 1rem;
+    }
+}
+
+
+
+.button-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0077FF; /* Button background color */
+    color: #fff; /* Button text color */
+    text-decoration: none; /* Remove default link underline */
+    border: none; /* Remove button border */
+    border-radius: 5px; /* Add rounded corners */
+    margin-bottom: 2rem;
+}
+
+/* Add hover effect */
+.button-link:hover {
+    background-color: orangered; /* Change background color on hover */
+    
+}
+

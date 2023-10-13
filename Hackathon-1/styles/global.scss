@@ -1,0 +1,89 @@
+@use "./variables" as *;
+@use "./mixins" as *;
+@use "./typography" as *;
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0; 
+    font-family: 'Pixelify Sans', sans-serif;
+    font-weight: 400;
+}
+.nav{
+    background-color: red;
+    border: .5rem black solid;
+    display: flex;
+    flex-direction: row;
+
+    &__logo{
+        width: 6rem;
+        margin-left: 9vw;
+        margin-right: 9vw;
+    }
+
+    &__list{
+        
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+        justify-content: center;
+        justify-content: space-evenly;
+        padding: 2rem;
+        width: 50vw;
+
+        &__item{
+            font-weight: 400;
+            font-size: 2rem;
+            color: aliceblue;
+            text-decoration: none;
+            padding: 1rem;
+            border-radius: 5%;
+
+            &:hover{
+                color: skyblue;
+                border: 2px solid goldenrod
+                
+            }
+        }
+    }
+}
+
+
+.footer{
+    background-color: red;
+    border: .5rem black solid;
+    display: flex;
+    flex-direction: row;
+
+    &__logo{
+        width: 5rem;
+        margin-left: 9vw;
+        margin-right: 9vw;
+    }
+
+    &__list{
+        
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+        justify-content: center;
+        justify-content: space-evenly;
+        padding: 2rem;
+        width: 50vw;
+        
+
+        &__item{
+            font-weight: 400;
+            font-size: 2rem;
+            color: aliceblue;
+            text-decoration: none;
+            padding: 1rem;
+            border-radius: 5%;
+
+            &:hover{
+                color: skyblue;
+                border: 2px goldenrod solid;
+            }
+        }
+    }
+}

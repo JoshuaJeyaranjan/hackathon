@@ -1,0 +1,88 @@
+@font-face {
+  font-family: "Avenir Next";
+  src: url("../../assets/Font/AvenirNextLTPro-Regular.woff2") format("woff2"), url("../../assets/Font/AvenirNextLTPro-Regular.woff") format("woff");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Avenir Next";
+  src: url("../../assets/Font/AvenirNextLTPro-Demi.woff2") format("woff2"), url("../../assets/Font/AvenirNextLTPro-Demi.woff") format("woff");
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Avenir Next";
+  src: url("../../assets/Font/AvenirNextLTPro-Bold.woff2") format("woff2"), url("../../assets/Font/AvenirNextLTPro-Bold.woff") format("woff");
+  font-weight: 700;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Pixelify Sans", sans-serif;
+  font-weight: 400;
+}
+
+.nav {
+  background-color: red;
+  border: 0.5rem black solid;
+  display: flex;
+  flex-direction: row;
+}
+.nav__logo {
+  width: 6rem;
+  margin-left: 9vw;
+  margin-right: 9vw;
+}
+.nav__list {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content: center;
+  justify-content: space-evenly;
+  padding: 2rem;
+  width: 50vw;
+}
+.nav__list__item {
+  font-weight: 400;
+  font-size: 2rem;
+  color: aliceblue;
+  text-decoration: none;
+  padding: 1rem;
+  border-radius: 5%;
+}
+.nav__list__item:hover {
+  color: skyblue;
+  border: 2px solid goldenrod;
+}
+
+.footer {
+  background-color: red;
+  border: 0.5rem black solid;
+  display: flex;
+  flex-direction: row;
+}
+.footer__logo {
+  width: 5rem;
+  margin-left: 9vw;
+  margin-right: 9vw;
+}
+.footer__list {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content: center;
+  justify-content: space-evenly;
+  padding: 2rem;
+  width: 50vw;
+}
+.footer__list__item {
+  font-weight: 400;
+  font-size: 2rem;
+  color: aliceblue;
+  text-decoration: none;
+  padding: 1rem;
+  border-radius: 5%;
+}
+.footer__list__item:hover {
+  color: skyblue;
+  border: 2px goldenrod solid;
+}/*# sourceMappingURL=global.css.map */

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arena</title>
+    <link rel="stylesheet" href="../styles/global.css">
+    <link rel="stylesheet" href="../styles/arena.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src=“https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js”></script>
+</head>
+<body>
+
+<!-- HEADER -->
+<header>
+    <!-- NAV-BAR -->
+    <nav class="nav">
+        <img class="nav__logo" src="../assets/logo.png" alt="">
+        <ul class="nav__list">
+            <li><a class="nav__list__item" href="../index.html">Home</a></li>
+            <li><a class="nav__list__item" href="../pages/arena.html">Arena</a></li>
+            <li><a class="nav__list__item" href="../pages/about.html">About</a></li>
+        </ul>
+        <img class="nav__logo" src="../assets/logo.png" alt="">
+    </nav>
+</header>
+
+<!-- HIDDEN BATTLE SECTION -->
+    <section class="battle">
+
+        <h1 class="battle__text">Time to Battle!</h1>
+
+        <div class="battle__container">
+
+            <div class="card">
+                <p class="card__name">Player 1 Pokemon</p>
+                <img src="" alt="Player 1 Pokemon img">
+                <p class="card__type">---- TYPE</p>
+                <p class="card__attack">Attacks</p>
+                <ul class="card__attack__container">
+                    <li><button class="card__attack__button">Atk1</button></li>
+                    <li><button class="card__attack__button">Atk2</button></li>
+                    <li><button class="card__attack__button">Atk3</button></li>
+                    <li><button class="card__attack__button">Atk4</button></li>
+                </ul>
+                <p class="card__health">---- HP</p>
+            </div>
+
+            <div ><img class="vs" src="../assets/vs.png" alt=""></div>
+
+
+            <div class="card">
+                <p class="card__name">Player 2 Pokemon</p>
+                <img src="" alt="Player 1 Pokemon img">
+                <p class="card__type"> <span class="card__type--color">----</span> TYPE</p>
+                <p class="card__attack">Attacks</p>
+                <ul class="card__attack__container">
+                    <li><button class="card__attack__button">Atk1</button></li>
+                    <li><button class="card__attack__button">Atk2</button></li>
+                    <li><button class="card__attack__button">Atk3</button></li>
+                    <li><button class="card__attack__button">Atk4</button></li>
+                </ul>
+                <p class="card__health"> <span class="card__health--color">----</span> HP</p>
+            </div>
+
+
+        </div>
+    </section>
+
+<!-- CHARACTER SELECT SECTION -->
+<div class="select">
+
+    <h1 class="select__text">Player 1: Choose Your Pokemon!</h1>
+
+    <div class="select__options"></div>
+
+    <a href="" class="select__button">Player 1 Ready?</a>
+
+</div>
+
+
+<!-- FOOTER -->
+<footer class="footer">
+
+    <img class="footer__logo" src="../assets/mew.png" alt="">
+    <ul class="footer__list">
+        <li><a class="footer__list__item" href="../index.html">Home</a></li>
+        <li><a class="footer__list__item" href="../pages/arena.html">Arena</a></li>
+        <li><a class="footer__list__item" href="../pages/about.html">About</a></li>
+    </ul>
+    <img class="footer__logo" src="../assets/mew.png" alt="">
+
+</footer>
+
+
+
+<script src="../scripts/site-api.js"> </script>
+</body>
+</html>
